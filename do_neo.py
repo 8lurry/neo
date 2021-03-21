@@ -3,7 +3,7 @@ from py2neo import Graph
 from py2neo.bulk import create_nodes, merge_nodes, create_relationships, merge_relationships
 
 # I have a neo4j docker container running with auth disabled and exposed on:
-url = 'http://localhost:7474'       # Container's volume in mounted on the $PROJECT_DIR/data (for persistancy)
+url = 'http://localhost:7474'
 file = 'data.json'
 
 class DoNeo(object):
